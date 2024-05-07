@@ -1,0 +1,62 @@
+*{
+    padding: none;
+    margin: none;
+}
+
+header{
+    height: 6vh;
+    background-color: rebeccapurple;
+}
+
+section{
+    height: 94vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(100deg, black, rgb(0, 3, 43));
+    color: white;
+}
+.apresentation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-fluid{
+    color: white;
+}
+
+.textsection{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 30pc;
+}
+
+.btn-sec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#males-bene{
+    margin-top: 3pc;
+}
+
+@media screen and (max-width: 900px){
+    section{
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .apresentation{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .textsection{
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 90%;
+    }
+}
